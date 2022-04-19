@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Test_1
 {
-    public enum Programme
+    public enum DaysOfWeek
     {
-        Frontend,
-        Backend
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
     }
 }

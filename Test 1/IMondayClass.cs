@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Test_1
 {
-    public enum Programme
+    public interface IMondayClass
     {
-        Frontend,
-        Backend
+        void AttendMondayClass(DaysOfWeek daysOfWeek);
+        
     }
 }
